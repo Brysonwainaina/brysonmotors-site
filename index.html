@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Bryson Motors helps you find cars for sale in Kenya. Explore vehicle listings and contact us on WhatsApp.">
+  <meta name="robots" content="index, follow">
+  <title>Bryson Motors Kenya | Cars for Sale</title>
+  <meta name="theme-color" content="#101a2b">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #182235;
+      line-height: 1.6;
+      background: #f5f7fa;
+    }
+    header {
+      background: #101a2b;
+      color: white;
+      padding: 22px 18px;
+      border-bottom: 3px solid #edbd56;
+    }
+    .container { max-width: 960px; margin: auto; }
+    .brand { color: #edbd56; font-size: 25px; font-weight: bold; }
+    nav { margin-top: 12px; }
+    nav a { color: white; margin-right: 16px; text-decoration: none; }
+    .hero {
+      background: #17263d;
+      color: white;
+      padding: 65px 22px;
+      text-align: center;
+    }
+    .hero h1 { font-size: clamp(32px, 7vw, 48px); line-height: 1.15; }
+    .hero p { max-width: 600px; margin: 18px auto; }
+    .button {
+      display: inline-block;
+      background: #edbd56;
+      color: #101a2b;
+      padding: 12px 20px;
+      margin-top: 10px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section { padding: 35px 18px; }
+    h2 { color: #101a2b; }
+    .cars {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+    }
+    .car {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      border: 1px solid #e1e6ee;
+    }
+    .car h3 { margin-top: 0; }
+    footer {
+      background: #101a2b;
+      color: white;
+      text-align: center;
+      padding: 25px 18px;
+    }
+    footer a { color: #edbd56; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="brand">BRYSON MOTORS</div>
+      <div>Find your next car in Kenya</div>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#cars">Cars for sale</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container">
+        <h1>Find Your Next Car</h1>
+        <p>
+          Welcome to Bryson Motors. Discover vehicle listings
+          and contact us to enquire about buying or selling a car
+          in Kenya.
+        </p>
+        <a class="button" href="#cars">Explore car listings</a>
+      </div>
+    </section>
+
+    <section id="cars">
+      <div class="container">
+        <h2>Cars for Sale in Kenya</h2>
+        <p>
+          Our online vehicle catalogue is being prepared.
+          Contact us to enquire about available cars or listing
+          your vehicle.
+        </p>
+        <div class="cars">
+          <article class="car">
+            <h3>Looking for a car?</h3>
+            <p>Tell us your preferred model and budget.</p>
+            <a href="#contact">Make an enquiry</a>
+          </article>
+          <article class="car">
+            <h3>Selling your car?</h3>
+            <p>Contact us to discuss listing your vehicle.</p>
+            <a href="#contact">List your car</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2>Contact Bryson Motors</h2>
+        <p>Contact us on WhatsApp for vehicle enquiries.</p>
+        <!-- Replace the number below with your WhatsApp number -->
+        <a class="button"
+           href="https://wa.me/2547XXXXXXXX">
+          Chat with us on WhatsApp
+        </a>
+        <p>Serving customers in Kenya.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Bryson Motors. All rights reserved.</p>
+    <p>Cars for sale in Kenya</p>
+  </footer>
+</body>
+</html>
